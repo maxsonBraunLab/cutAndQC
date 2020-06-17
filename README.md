@@ -24,6 +24,14 @@ The configuration happens in config.yml
  - Specify the bowtie2 index for the genome you are aligning to.
  * Specify path to bowtie2 indices for genomes in config.yml
 
+The pipeline detects samples in the subdirectory data/raw. Using the following assumptions:
+
+ * PE reads
+ * read 1 and 2 designated using "_R1", and "_R2" 
+ * files have extention .fastq.gz
+
+If the data do not meet the above assumptions, you might have to make changes in the Snakefile, the configuration file, or rename the softlinks to the raw data directly. All are valid options. 
+
 # Execution
 
 Setup snakemake profile to run on compute cluster:
