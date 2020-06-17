@@ -2,12 +2,14 @@ FASTQDIR:
     - "data/raw"
 FASTQEXT:
     - ".fastq.gz"
+ALIGN:
+    - "/path/to/alignment/bowtie2/index/"
 BOWTIE2:
     HG38:
-        - "/path/to/hg38/bowtie/index/"
+        - "/path/to/hg38/bowtie2/index/"
     MM10:
-        - "/path/to/mm10/bowtie/index/"
+        - "/path/to/mm10/bowtie2/index/"
     ECOLI:
-        - "/path/to/ecoli/bowtie/index/"
+        - "/path/to/ecoli/bowtie2/index/"
     MYCO:
-        - "/path/to/myco/bowtie/index/"
+        - "/path/to/myco/bowtie2/index/"
