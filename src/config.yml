@@ -1,0 +1,13 @@
+FASTQDIR:
+    - "data/raw"
+FASTQEXT:
+    - ".fastq.gz"
+BOWTIE2:
+    HG38:
+        - "/path/to/hg38/bowtie/index/"
+    MM10:
+        - "/path/to/mm10/bowtie/index/"
+    ECOLI:
+        - "/path/to/ecoli/bowtie/index/"
+    MYCO:
+        - "/path/to/myco/bowtie/index/"
